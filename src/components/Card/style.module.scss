@@ -1,0 +1,35 @@
+.card {
+  width: 100%;
+  min-width: 177px;
+  min-height: 210px;
+  max-height: 228px;
+  border-radius: 18px;
+  box-shadow: 0px 10px 13px -4px #23235F30;
+
+  .imageHolder {
+    height: 162px;
+    border-radius: 18px 18px 0 0;
+    background-color: #F2D4AA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .nameHolder {
+    padding: 12px 18px 18px;
+
+    p {
+      margin: 0;
+      font-family: Nunito, sans-serif;
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 18px;
+      text-align: left;
+      color: #39414B;
+    }
+  }
+}

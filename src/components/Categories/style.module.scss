@@ -1,0 +1,45 @@
+.categories {
+  width: 264px;
+  height: 234px;
+  padding: 12px;
+  border-radius: 18px;
+  border: 1px solid #CFCFE4;
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .category {
+    width: 100%;
+    height: 42px;
+    padding: 12px;
+    border-radius: 12px;
+    font-family: Nunito, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    cursor: pointer;
+    &:hover{
+      background-color: #6FCF88;
+      color: #ffffff;
+    }
+  }
+
+  .activeCategory {
+    background-color: #5FBF77;
+    color: #ffffff;
+    &:hover{
+      background-color: #4EA563;
+    }
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .categories {
+    width: 100%;
+  }
+}
